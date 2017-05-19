@@ -1,11 +1,11 @@
 # KotlinDemo
 学习Kotlin
 
-SwipeRefreshLayout+ListView：\n
+SwipeRefreshLayout+ListView：<br>
 ![image](https://github.com/luhaikong/KotlinDemo/blob/master/app/src/main/res/mipmap-xxxhdpi/Home_ListView.png)
 
-SwipeRefreshLayout+RecyclerView：\n
+SwipeRefreshLayout+RecyclerView：<br>
 ![image](https://github.com/luhaikong/KotlinDemo/blob/master/app/src/main/res/mipmap-xxxhdpi/Find_RecyclerView.png)
 
-SwipeRefreshLayout+LinearLayout：\n
+SwipeRefreshLayout+LinearLayout：<br>
 ![image](https://github.com/luhaikong/KotlinDemo/blob/master/app/src/main/res/mipmap-xxxhdpi/Setting_LinearLayout.png)
