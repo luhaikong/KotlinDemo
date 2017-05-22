@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.lhk.kotlindemo.ToolBarActivity">
+    tools:context="com.lhk.kotlindemo.base.ToolBarActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

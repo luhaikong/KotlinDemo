@@ -1,9 +1,10 @@
-package com.lhk.kotlindemo
+package com.lhk.kotlindemo.base
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.LayoutInflater
 import android.view.View.GONE
+import com.lhk.kotlindemo.R
 import kotlinx.android.synthetic.main.activity_tool_bar.*
 
 open class ToolBarActivity : AppCompatActivity() {
@@ -19,7 +20,7 @@ open class ToolBarActivity : AppCompatActivity() {
     }
 
     override fun setContentView(layoutResID: Int) {
-        LayoutInflater.from(this).inflate(layoutResID,frameLayout)
+        LayoutInflater.from(this).inflate(layoutResID, frameLayout)
     }
 
     protected fun setBackVisibilityGone(){

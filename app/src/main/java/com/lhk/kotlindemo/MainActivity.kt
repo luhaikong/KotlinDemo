@@ -2,6 +2,7 @@ package com.lhk.kotlindemo
 
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
+import com.lhk.kotlindemo.base.ToolBarActivity
 import com.lhk.kotlindemo.fragment.FindFragment
 import com.lhk.kotlindemo.fragment.HomeFragment
 import com.lhk.kotlindemo.fragment.SettingFragment

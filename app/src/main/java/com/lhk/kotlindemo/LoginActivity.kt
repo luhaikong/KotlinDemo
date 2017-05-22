@@ -3,6 +3,7 @@ package com.lhk.kotlindemo
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
+import com.lhk.kotlindemo.base.ToolBarActivity
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_tool_bar.*
 
