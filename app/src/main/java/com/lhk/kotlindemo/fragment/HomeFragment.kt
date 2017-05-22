@@ -1,10 +1,12 @@
 package com.lhk.kotlindemo.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.lhk.kotlindemo.LoginActivity
 import com.lhk.kotlindemo.R
 import com.lhk.kotlindemo.adapter.HomeAdapter
 import com.lhk.kotlindemo.bean.ItemBean
@@ -25,7 +27,7 @@ class HomeFragment: Fragment() {
     override fun onStart() {
         super.onStart()
         mList = mutableListOf()
-        for (i in 0..100){
+        for (i in 0..100) {
             mList?.add(ItemBean(0,"张三",10,60.5))
             mList?.add(ItemBean(1,"李四",11,60.5))
             mList?.add(ItemBean(2,"王五",12,60.5))
@@ -35,5 +37,14 @@ class HomeFragment: Fragment() {
         }
         mAdapter = HomeAdapter(activity,mList)
         listView.adapter = mAdapter
+        listView.setOnItemClickListener {
+            parent, view, position, id ->
+            showRegister(position)
+        }
+    }
+
+    private fun showRegister(position: Int){
+        val intent = Intent(activity,LoginActivity::class.java)
+        startActivity(intent)
     }
 }

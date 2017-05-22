@@ -10,7 +10,9 @@ open class ToolBarActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.AppTheme_Activity_in_out_anim)
         super.setContentView(R.layout.activity_tool_bar)
+
         tv_toolBar_back.setOnClickListener {
             onBackPressed()
         }
@@ -20,7 +22,7 @@ open class ToolBarActivity : AppCompatActivity() {
         LayoutInflater.from(this).inflate(layoutResID,frameLayout)
     }
 
-    protected fun setBackVisibility(){
+    protected fun setBackVisibilityGone(){
         tv_toolBar_back.visibility = GONE
     }
 
