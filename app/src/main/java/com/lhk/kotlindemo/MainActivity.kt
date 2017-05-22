@@ -36,7 +36,7 @@ class MainActivity : ToolBarActivity() {
     }
 
     private fun switchFragment(title: String?){
-        var transaction = supportFragmentManager.beginTransaction()
+        val transaction = supportFragmentManager.beginTransaction()
         when(title){
             getString(R.string.title_home) -> {
                 transaction.replace(R.id.main_content,HomeFragment())
@@ -52,7 +52,7 @@ class MainActivity : ToolBarActivity() {
     }
 
     private fun initFragment(){
-        var transaction = supportFragmentManager.beginTransaction()
+        val transaction = supportFragmentManager.beginTransaction()
         transaction.add(R.id.main_content,HomeFragment())
         transaction.commit()
     }
