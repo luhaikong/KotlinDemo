@@ -9,6 +9,7 @@
 
     <!-- ToolBar -->
     <string name="title_toolbar">首 页</string>
+    <string name="title_subtitle_toolbar">子标题</string>
     <string name="title_toolbar_find">发 现</string>
     <string name="title_toolbar_setting">设 置</string>
     <string name="title_toolbar_back">返回</string>
